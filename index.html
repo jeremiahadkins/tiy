@@ -1,0 +1,179 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>The Iron Yard - Design Brief</title>
+	<script src="scripts/jquery-2.1.4.js"></script>
+	<script src="scripts/main.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+
+</head>
+<body> 
+	<header>
+		<div class="wrapper">
+		<a id="js-toggle" href="#">
+			<div class="course-list">
+				<img src="images/iron-yard-logo.png" alt="">
+				<span id="title">5.1 - Introduction and Overview</span>
+				<div class="course-time">
+					7 min
+				</div>
+			</div>
+		</a>
+			<nav role='navigation'>
+				<ul>
+			     <li><a class="js-nav-item" href="#js-top">5.1 - Introduction and Overview</a></li>
+			     <li><a class="js-nav-item" href="#js-code-sample">5.2 - Code Sample</a></li>
+			     <li><a class="js-nav-item" href="#js-video-lesson">5.3- Instructor Video Lesson</a></li>
+			     <li><a class="js-nav-item" href="#js-code-challenge">5.4 - Code Challenge</a></li>
+			     <li><a class="js-nav-item" href="#js-quiz">5.5 - Roundup Quiz</a></li>
+			     <li><a class="js-nav-item" href="#js-summary">5.6 - Chapter Summary</a></li>
+			     <li>Up Next: Chapter 6 - CSS Transitions and Animations</li>
+				 </ul>
+			</nav>  
+			<div class="course-nav">
+				<h4>Lauren Maxwell</h4>
+				<img src="images/profile.png" alt="">
+			</div>
+		</div>
+		<div class="loader">
+			<div class="progress">
+				
+			</div>
+		</div>
+	</header>
+	<section id="js-top" class="chapter">
+		<div class="wrapper">
+			<p class="chapter-title">Chapter 5</p>
+			<h1>Creating Off Canvas Navigation</h1>
+			<div class="teacher">
+				<img src="images/mason.png">
+				<ul class="chapter-meta">
+					<li>Curated by: <a href="/">Mason Stewart</a></li>
+					<li>Duration: 44 min</li>
+					<li>Difficulty: Intermediate</li>
+				</ul>
+			</div>	
+		</div>
+	</section>
+	<section id="js-intro" class="intro">
+		<div class="wrapper">
+			<div class="intro-text">
+				<h2>5.1 - Introduction and Overview</h2>
+				<p>"Off Canvas" patterns are different ways to approach layout where content on the web isn't just laid out in a vertical column. For instance, navigation could be positioned hidden off the left edge of the "canvas" (visible browser window) and slid in on demand.</p>
+				<img src="images/nav-illustration.png" alt="">
+			</div>
+		<div class="sidebar-wrapper">
+			<div class="sidebar">
+				<h3>You Might Need:</h3>
+				<ul class="check-list">
+					<li>Wireframing</li>
+					<li>HTML Basics</li>
+					<li>CSS Layouts</li>
+				</ul>
+			</div>
+			<div class="sidebar">
+				<h3>Taught at these Locations:</h3>
+				<ul class="check-list">
+					<li>Greenville</li>
+					<li>Austin</li>
+					<li>Orlando</li>
+					<li>London</li>
+				</ul>
+			</div>
+		</div>	
+			
+	</section>
+	<section id="js-code-sample" class="code-sample">
+		<div class="wrapper">
+			<div class="intro-text">
+				<h2>5.2 - Code Sample</h2>
+				<p>The layout technique here is essentially a two column grid. Only the left column is 0% wide and the right column is 100% wide by default. The left column is the navigation we intend to reveal as needed. With hidden overflow, this column is completely hidden.</p>
+			</div>
+			<img src="images/code-snippet.png" alt="">	
+		</div>
+	</section>
+	<section id="js-video-lesson" class="video-lesson">
+		<div class="wrapper">
+			<div class="intro-text">
+					<h2>5.3 - Instructor Video Lesson</h2>
+					<p>Below we'll take a look at our project demo and learn how to code our Off Canvas Navigation.</p>
+			</div>
+			<img src="images/video-player.png" alt="">
+				<div class="box-left">
+					<h3>Video Downloads:</h3>
+					<ul class="check-list">
+						<li class="project-icon">Project File <span>12.5 mb</span></li>
+						<li class="vid-icon">High Res Video <span>12.5 mb</span></li>
+						<li class="flat-icon">Flat Icon Set <span>12.5 mb</span></li>
+					</ul>
+				</div>
+				<div class="box-right">
+					<h3>Did you find this video helpful?</h3>
+					<p>We always love to hear our student's feedback. Please rate this video to help us keep creating more content you'll love.</p>
+					<img src="images/stars-image.png" alt="">
+				</div>
+		</div>
+	</section>
+	<section id="js-code-challenge" class="code-challenge">
+		<div class="wrapper">
+			<div class="intro-text">
+				<h2>5.4 - Code Challenge</h2>
+				<p>Let's complete a few tasks that will better help you understand the project.</p>
+			</div>
+			<div class="quiz-header">
+				<div class="loader">
+					<div class="progress"></div>
+				</div>
+				<span>Challenge 2/4</span>
+				<p class="question">Change the title of your page from "Title" to "Leave it to Beaver.</p>
+				<div class="btn-wrapper">
+					<a href="0" class="green-btn">Next</a>
+					<a href="0" class="black-btn">Help</a>
+				</div>
+			</div>
+			<img src="images/code-editor-body.png" alt="">
+		</div>
+	</section>
+	<section id="js-quiz" class="quiz">
+		<div class="wrapper">
+			<div class="intro-text">
+				<h2>5.5 - Roundup Quiz</h2>
+				<p>This is a quiz to test your knowledge on this lesson. Feel free to <a href="#">skip this quiz</a> or <a href="#">ask for help</a>.</p>
+			</div>
+			<div class="quiz-header">
+				<div class="loader">
+					<div class="progress"></div>
+				</div>
+				<span>Challenge 2/4</span>
+				<p class="question">Is it safe to use Off Canvas Navigation on mobile devices?</p>
+				<div class="btn-wrapper">
+					<a href="#0" class="green-btn">Next</a>
+					<a href="#0" class="black-btn">Help</a>
+				</div>
+			</div>
+			<div class="answer-wrapper">
+				<ul class="quiz-answers">
+					<li class="js-answer answer">Yes, of course it's safe!</li>
+					<li class="js-answer answer">No way, man! I wouldn't touch that with Dreamweaver.</li>
+					<li class="js-answer answer">Time is a flat circle.</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section id="js-summary" class="summary">
+		<div class="wrapper">
+			<div class="intro-text">
+				<h2>5.6 - Chapter Summary</h2>
+				<p>In this chapter you've learned to utilize Off Canvas Navigational patterns for clean and organized menus. Below are a few additional resources to further help your education on this subject.s</p>
+
+			</div>		
+		</div>
+	</section>
+	<footer>
+		<div class="wrapper">
+			
+		</div>
+	</footer>
+</body>
+</html>
