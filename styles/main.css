@@ -201,12 +201,12 @@ nav {
     .video-lesson .box-left h3 {
       margin-bottom: 30px; }
     .video-lesson .box-left .project-icon {
-      background: url(/images/project-icon.png) left top no-repeat;
+      background: url(../images/project-icon.png) left top no-repeat;
       padding-top: 0; }
     .video-lesson .box-left .vid-icon {
-      background: url(/images/video-icon.png) left center no-repeat; }
+      background: url(../images/video-icon.png) left center no-repeat; }
     .video-lesson .box-left .flat-icon {
-      background: url(/images/download-icon.png) left center no-repeat;
+      background: url(../images/download-icon.png) left center no-repeat;
       border-bottom: none; }
   .video-lesson .box-right {
     width: 48%;
@@ -369,7 +369,7 @@ p {
   padding: 20px;
   margin-bottom: 40px; }
   .sidebar li {
-    background: url(/images/check-icon.png) left center no-repeat;
+    background: url(../images/check-icon.png) left center no-repeat;
     padding-left: 35px;
     margin-bottom: 20px;
     font-style: italic; }
